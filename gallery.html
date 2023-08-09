@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LAXMI TRAVELS</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<style>
+		/* Custom styles for the Gallery page */
+		.gallery {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 20px;
+			margin-top: 40px;
+		}
+
+		.gallery-item {
+			border: 1px solid #ddd;
+			border-radius: 8px;
+			padding: 20px;
+			text-align: center;
+			background-color: #f7f7f7;
+			transition: background-color 0.3s ease;
+		}
+
+		.gallery-item:hover {
+			background-color: #e2e2e2;
+		}
+
+		.gallery-item img {
+			width: 100%;
+			height: auto;
+			border-radius: 8px;
+			margin-bottom: 10px;
+		}
+
+		.gallery-item h3 {
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+
+		.gallery-item p {
+			font-size: 14px;
+			color: #777;
+		}
+	</style>
+</head>
+<body>
+	<header>
+	  <nav>
+		<div class="logo">
+		  <img src="images/laxmi-travelsLOGO2.png" alt="Laxmi Travels">
+		</div>
+		<ul class="navigationmenu">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="aboutus.html">About us</a></li>
+		  <li><a href="gallery.html">Gallery</a></li> 
+		  <li class="dropdown">
+				<a href="tariff.html" class="dropbtn">Tariff</a>
+				<div class="dropdown-content">
+					<a href="#"> Local</a>
+					<a href="#"> Outstation </a>
+					<a href="#"> Monthly </a>
+				</div>
+		  </li>
+		  <li class="dropdown">
+				<a href="#" class="dropbtn">Tour Packages</a>
+				<div class="dropdown-content">
+					<a href="#"> kancheepuram</a>
+					<a href="#"> Vellore </a>
+					<a href="#"> Pondicherry </a>
+					<a href="#"> Tirupati </a>
+				</div>
+		  </li>
+		  <li><a href="#contact">Contact</a></li>
+		</ul>
+	  </nav>
+	</header>
+	<section class="gallery" id="gallery">
+	  <div class="gallery-item">
+	    <img src="images/gallery-image-1.jpg" alt="Gallery Image 1">
+	    <h3>Image 1</h3>
+	    <p>Description for Image 1</p>
+	  </div>
+	  <div class="gallery-item">
+	    <img src="images/gallery-image-2.jpg" alt="Gallery Image 2">
+	    <h3>Image 2</h3>
+	    <p>Description for Image 2</p>
+	  </div>
+	  <div class="gallery-item">
+	    <img src="images/gallery-image-3.jpg" alt="Gallery Image 3">
+	    <h3>Image 3</h3>
+	    <p>Description for Image 3</p>
+	  </div>
+	  <!-- Add more gallery items as needed -->
+	</section>
+
+    <section class="contact" id="contact">
+		<h2>Contact Us</h2>
+		<div class="contact-info">
+			<p><strong>Address:</strong>#232, Kamarajapuram Main Road, Nungambakkam, Chennai-600034</p>
+			<p><strong>Contact No:</strong><a href="tel:+919444033208"style="margin-right:5px">9444033208</a><a href="tel:+919710151515">9710151515</a></p>
+			<p><strong>Telephone No:</strong> 2817 4848/5577</p>
+			<p><strong>Email:</strong><a href="mailto:laxmitravels1515@gmail.com.com">laxmitravels1515@gmail.com</a></p>
+			<a href="https://goo.gl/maps/pZfSbFTXLGbdGKic9" target="_blank">View on Google Maps</a>
+		</div>
+	  </section>
+
+	<footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Laxmi Travels. All rights reserved.</p>
+            <ul class="social-links">
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+          </div>
+	</footer>
+</body>
+</html>
